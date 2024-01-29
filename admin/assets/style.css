@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    align-content:center;
+    box-sizing:border-box ;
+}
+
+.menu{
+    background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+    width:20%;
+    height: 180vh;
+   
+    float:left;
+   box-shadow:2px #aaaaaa;
+   display: flex;
+   display: block;
+   margin-right: 2%;
+    
+
+}
+ .nav  {
+   
+   padding-top:20px; 
+    
+   
+}
+li {
+    text-decoration: none ;
+    list-style-type: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    text-shadow: 2px 2px 4px #eb4141;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 5px;
+    
+}
+a:hover{
+    color: #000000;
+    
+    
+}
+ol{
+    margin: 0px;
+}
+
+
+.top{
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-color:whitesmoke;
+    float: left;
+    width: 100%;
+    height: 15vh;
+    
+    box-shadow:2px 3px 3px #aaaaaa;
+}
+
+.top h1{
+    float: right;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    text-shadow: 4px 4px #833ab4;
+}
+.dashboard-content{
+    padding-top: 10%;
+    background-color:#7cebe552;
+    margin-left: 50px;
+}
+.filter{
+    margin-left: auto ;
+}
+.text-purple{
+    color:#6f42c1;
+}
+
+.content{
+    padding-top: 10%;
+    background-color:#7cebe552;
+    height: 200vh;
+
+}
+.content form input,label{
+    width:60%;
+    
+}
+.content form input{
+    height: 60px;
+    width: 30%;
+}
+#btn{
+    width:10%;
+    background-color:#fd1d1d;
+    margin-top: 20px;
+    margin-left: 25%;
+    border:none;
+    border-radius:15px;
+    padding: 10px;
+    font-size: 18px;
+}
+.viewfeatured table{
+   padding-top: 10px;
+    
+}
+.viewfeatured table th,td{
+    padding: 20px;
+    border:solid 1px;
+}
+.specs{
+    width: 100%;
+}
+.specs form input,label{
+    width: 50%;
+    
+    
+}
+.specs form input{
+    height: 40px;
+    width: 30%;
+}
+#button{
+    width:10%;
+    background-color:#fd1d1d;
+    margin-top: 20px;
+    margin-left: 25%;
+    border:none;
+    border-radius:15px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+#image-preview{
+    display: flex;
+    flex-wrap: ;
+    
+}
+.preview-image {
+    margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+.viewsingle{
+    align-content: center;
+    width: 100%;
+}
+.clearspace marquee{
+    margin:50% ;
+    font-size: xx-large;
+}
+.items{
+    
+}
+.item{
+    padding: 20px;
+}
